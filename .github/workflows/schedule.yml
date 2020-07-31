@@ -10,5 +10,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: matchai/heads-up@master
         with:
-          url: https://github.com
+          url: http://priya-71e86eaf.localhost.run/
           access_token: ${{ secrets.ACCESS_TOKEN }}
